@@ -1,10 +1,10 @@
-package myweeper;
+package mysweeper;
 
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.event.*;
-import static myweeper.MySweeper.*;
+import static mysweeper.MySweeper.*;
 
 public class MySweeper extends JFrame{
     
@@ -27,7 +27,7 @@ public class MySweeper extends JFrame{
     static JSpinner spinner;
     
     public static void main(String[] args) {
-        frame = new MySweeper("MyMines  -  a minesweeper remake");
+        frame = new MySweeper("A minesweeper remake");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(null);
         frame.setLocation((SCRWIDTH-FRAMEWIDTH)/2, (SCRHEIGHT-FRAMEHEIGHT)/2);
